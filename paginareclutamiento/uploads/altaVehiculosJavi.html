@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<title>FORMULARIO DEL VEHICULO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container w3-blue">
+  <h2 class="w3-center">inserte los datos del vehiculo</h2>
+</div>
+
+<form action="altaVehiculos.php" class="w3-container"  method="POST" enctype="multipart/form-data">
+  <p>
+        <label class="w3-text-teal">Nombre del titular</label>
+        <input class="w3-input " type="text" name="nombreTitular"></p>
+
+  <p>
+        <label class="w3-text-teal">Apellido del titular</label>
+        <input class="w3-input" type="text" name="apellidoTitular"></p>
+
+  <p>
+        <label class="w3-text-teal">Modelo del coche</label>
+        <input class="w3-input" type="text" name="modelo"></p>
+      
+  <p>
+        <label class="w3-text-teal">fecha de Entrada</label>
+        <input class="w3-input" type="date" name="fechaEntrada"></p>
+
+  <p>
+        <label class="w3-text-teal">fecha de salida</label>
+        <input class="w3-input" type="date" name="fechaSalida"></p>
+  <p>
+        <label class="w3-text-teal">Mecanico</label>
+        <input class="w3-input" type="text" name="mecanico"></p>
+  <p>
+        <label class="w3-text-teal">Matricula</label>
+        <input class="w3-input" type="text" name="matricula"></p>
+  <p>
+        <label class="w3-text-teal">foto</label>
+        <input class="w3-input" type="file" name="fileToUpload"></p>
+  <p>
+        <label class="w3-text-teal">kilometros</label>
+        <input class="w3-input" type="text" name="kilometros"></p>
+  <p>
+        <label class="w3-text-teal">codigo de provincia</label>
+        <input class="w3-input" type="text" name="codprovincia"></p>
+   </div>
+   <div class="w3-center"><input class="w3-blue w3-border w3-border-yellow w3-display-bottom" type="submit"value="agregar"></div><br>
+</form>
+<div class="w3-container w3-blue">
+    <h1 class="w3-center">formulario de insercion</h1>
+</div>
+
+</body>
+</html> 
